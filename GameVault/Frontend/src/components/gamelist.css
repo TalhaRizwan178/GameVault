@@ -1,0 +1,98 @@
+/* Cyberpunk Theme for GameVault */
+
+/* Fix white background */
+body {
+  background-color: #1f1f1f !important; /* Dark grey */
+  color: #bb86fc !important; /* Glow purple text */
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Title Styling */
+h3 {
+  text-align: center;
+  color: #bb86fc;
+  text-shadow: 0 0 8px #bb86fc;
+  margin-top: 20px;
+}
+
+/* Centered buttons section */
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+/* Table Styling */
+.table {
+  background-color: #2f2f2f !important; /* Dark grey */
+  border: 1px solid #bb86fc !important;
+  box-shadow: 0 0 12px #bb86fc;
+  margin: auto;
+  width: 95%;
+}
+
+.table th {
+  background-color: #bb86fc !important; /* Purple header */
+  color: #000000 !important; /* Black header text */
+  border: 1px solid #bb86fc !important;
+  text-align: center;
+}
+
+.table td {
+  background-color: #2f2f2f !important; /* Grey cell background */
+  color: #bb86fc !important; /* Purple text */
+  border: 1px solid #bb86fc !important;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  background-color: transparent !important;
+  color: #bb86fc !important;
+  border: 1px solid #bb86fc !important;
+  box-shadow: 0 0 6px #bb86fc !important;
+  text-shadow: 0 0 4px #bb86fc;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #bb86fc !important;
+  color: #1f1f1f !important;
+  text-shadow: none !important;
+}
+
+.btn-primary {
+  border-color: #bb86fc !important;
+}
+
+.btn-danger {
+  border-color: #ff4f81 !important;
+  box-shadow: 0 0 6px #ff4f81 !important;
+  color: #ff4f81 !important;
+}
+
+.btn-danger:hover {
+  background-color: #ff4f81 !important;
+  color: #1f1f1f !important;
+}
+
+/* Keep buttons consistent */
+.btn-sm {
+  padding: 6px 12px !important;
+  font-size: 0.85rem !important;
+}
+
+/* Search Input */
+input[type="text"] {
+  background-color: #2e2e40 !important;
+  border: 1px solid #bb86fc !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 8px #bb86fc !important;
+  padding: 6px !important;
+  margin: auto;
+  display: block;
+  width: 60%;
+}
